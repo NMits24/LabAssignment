@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_page_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:textColor="?android:attr/textColorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer Information:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="16dp"
+        android:textColor="?android:attr/textColorSecondary"/>
+
+    <TextView
+        android:id="@+id/aboutFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_full_name"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="?android:attr/textColorPrimary"/>
+
+    <TextView
+        android:id="@+id/aboutStudentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_student_id"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="?android:attr/textColorPrimary"/>
+
+    <TextView
+        android:id="@+id/aboutCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_course"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="?android:attr/textColorPrimary"/>
+
+    <TextView
+        android:id="@+id/aboutCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_copyright"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:textColor="?android:attr/textColorSecondary"/>
+
+    <TextView
+        android:id="@+id/aboutGitHubUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_github_label"
+        android:textSize="18sp"
+        android:textColor="?attr/colorPrimary"
+        android:autoLink="web"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+ </LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Electricity Bill Estimator</string>
+
+    <string name="about_page_title">About This Application</string>
+    <string name="about_full_name">Full Name: Muhammad Na\'im Bin Johari</string>
+    <string name="about_student_id">Student ID: 2023165005</string>
+    <string name="about_course">Course: Information Technology</string>
+    <string name="about_copyright">© 2024 Muhammad Na\'im Bin Johari. All rights reserved.</string>
+    <string name="about_github_label">Visit my GitHub: https://github.com/NMits24</string>
+
+</resources>
